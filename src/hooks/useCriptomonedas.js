@@ -1,5 +1,6 @@
 import React,{Fragment,useState} from 'react';
 import styled from '@emotion/styled';
+//import PropTypes from 'prop-types';
 
 
 const Label = styled.label`

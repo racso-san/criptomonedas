@@ -1,5 +1,6 @@
 import React,{Fragment,useState} from 'react';
 import styled from '@emotion/styled';
+//import PropTypes from 'prop-types';
 
 
 const Label = styled.label`
@@ -47,5 +48,5 @@ const useMoneda = (label,stateInicial,opciones) => {
     // Retornar state, interfaz y func que modifica el state
     return [state,Seleccionar,actualizarState];
 }   
- 
+
 export default useMoneda;
